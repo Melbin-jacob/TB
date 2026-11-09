@@ -41,7 +41,7 @@ function readJson(file: string): unknown {
 /** Loads and validates the catalog and store list. Throws DataLoadError on any problem. */
 export function loadReferenceData(dataDir: string = DEFAULT_DATA_DIR): ReferenceData {
   const load = <T>(file: string, schema: z.ZodType<T>): T => {
-    const full = path.join(dataDir, file);
+    const full = path.join(/*turbopackIgnore: true*/ dataDir, file);
     let raw: unknown;
     try {
       raw = readJson(full);
@@ -67,7 +67,7 @@ export function loadReferenceData(dataDir: string = DEFAULT_DATA_DIR): Reference
 export function loadMarketData(asOf: IsoDate, dataDir: string = DEFAULT_DATA_DIR): MarketData {
   const ref = loadReferenceData(dataDir);
   const storeIds = new Set(ref.stores.map((s) => s.id));
-  const flyerDir = path.join(dataDir, 'flyers');
+  const flyerDir = path.join(/*turbopackIgnore: true*/ dataDir, 'flyers');
 
   let files: string[];
   try {
@@ -83,7 +83,7 @@ export function loadMarketData(asOf: IsoDate, dataDir: string = DEFAULT_DATA_DIR
   for (const file of files) {
     let raw: unknown;
     try {
-      raw = readJson(path.join(flyerDir, file));
+      raw = readJson(path.join(/*turbopackIgnore: true*/ flyerDir, file));
     } catch (e) {
       result.warnings.push(`Flyer file "${file}" could not be read and was skipped: ${(e as Error).message}`);
       continue;
