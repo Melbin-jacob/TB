@@ -1,0 +1,391 @@
+[
+  {
+    "id": "milk-2pct",
+    "name": "Milk, 2%",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "milk-oat",
+    "name": "Oat beverage, original",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": []
+  },
+  {
+    "id": "cream-35",
+    "name": "Whipping cream, 35%",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "butter-salted",
+    "name": "Butter, salted",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "cheese-cheddar",
+    "name": "Cheese, cheddar block",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "yogurt-greek-plain",
+    "name": "Greek yogurt, plain",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "eggs-large",
+    "name": "Eggs, large",
+    "dimension": "count",
+    "displayUnit": "each",
+    "inherentContains": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "ice-cream-vanilla",
+    "name": "Ice cream, vanilla",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": [
+      "dairy"
+    ]
+  },
+  {
+    "id": "bread-whole-wheat",
+    "name": "Bread, whole wheat",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "bread-white",
+    "name": "Bread, white",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "tortillas-flour",
+    "name": "Tortillas, flour",
+    "dimension": "count",
+    "displayUnit": "each",
+    "inherentContains": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "pasta-spaghetti",
+    "name": "Pasta, spaghetti",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "rice-basmati",
+    "name": "Rice, basmati",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "oats-rolled",
+    "name": "Oats, rolled",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "flour-all-purpose",
+    "name": "Flour, all-purpose",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "cereal-corn-flakes",
+    "name": "Cereal, corn flakes",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "apples-gala",
+    "name": "Apples, Gala",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "bananas",
+    "name": "Bananas",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "oranges-navel",
+    "name": "Oranges, navel",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "potatoes-russet",
+    "name": "Potatoes, russet",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "onions-yellow",
+    "name": "Onions, yellow",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "carrots",
+    "name": "Carrots",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "tomatoes-roma",
+    "name": "Tomatoes, Roma",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli crowns",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "bell-peppers-red",
+    "name": "Peppers, red bell",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "strawberries",
+    "name": "Strawberries",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "spinach-baby",
+    "name": "Spinach, baby",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "lettuce-romaine",
+    "name": "Lettuce, romaine",
+    "dimension": "count",
+    "displayUnit": "each",
+    "inherentContains": []
+  },
+  {
+    "id": "avocados",
+    "name": "Avocados",
+    "dimension": "count",
+    "displayUnit": "each",
+    "inherentContains": []
+  },
+  {
+    "id": "cilantro",
+    "name": "Cilantro, bunch",
+    "dimension": "count",
+    "displayUnit": "each",
+    "inherentContains": []
+  },
+  {
+    "id": "chicken-breast-boneless",
+    "name": "Chicken breast, boneless skinless",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "meat",
+      "poultry"
+    ]
+  },
+  {
+    "id": "chicken-thighs-boneless",
+    "name": "Chicken thighs, boneless skinless",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "meat",
+      "poultry"
+    ]
+  },
+  {
+    "id": "ground-beef-lean",
+    "name": "Ground beef, lean",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "meat"
+    ]
+  },
+  {
+    "id": "pork-chops",
+    "name": "Pork loin chops",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "meat",
+      "pork"
+    ]
+  },
+  {
+    "id": "bacon",
+    "name": "Bacon, sliced",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "meat",
+      "pork"
+    ]
+  },
+  {
+    "id": "salmon-fillet",
+    "name": "Salmon fillet, Atlantic",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "fish"
+    ]
+  },
+  {
+    "id": "tofu-firm",
+    "name": "Tofu, firm",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "beans-black-canned",
+    "name": "Black beans, canned",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": []
+  },
+  {
+    "id": "tomatoes-diced-canned",
+    "name": "Tomatoes, diced, canned",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": []
+  },
+  {
+    "id": "lentils-red",
+    "name": "Lentils, red split",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "peanut-butter",
+    "name": "Peanut butter, smooth",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "nuts"
+    ]
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds, whole",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "nuts"
+    ]
+  },
+  {
+    "id": "olive-oil",
+    "name": "Olive oil, extra virgin",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": []
+  },
+  {
+    "id": "canola-oil",
+    "name": "Canola oil",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": []
+  },
+  {
+    "id": "sugar-white",
+    "name": "Sugar, granulated white",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "honey",
+    "name": "Honey, liquid",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": [
+      "honey"
+    ]
+  },
+  {
+    "id": "coffee-ground",
+    "name": "Coffee, ground",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  },
+  {
+    "id": "orange-juice",
+    "name": "Orange juice, not from concentrate",
+    "dimension": "volume",
+    "displayUnit": "L",
+    "inherentContains": []
+  },
+  {
+    "id": "peas-frozen",
+    "name": "Peas, frozen",
+    "dimension": "mass",
+    "displayUnit": "kg",
+    "inherentContains": []
+  }
+]

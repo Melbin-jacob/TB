@@ -1,0 +1,314 @@
+{
+  "storeId": "kensington-fresh",
+  "validFrom": "2026-11-05",
+  "validTo": "2026-11-11",
+  "listings": [
+    {
+      "id": "kf-apples-gala",
+      "catalogItemId": "apples-gala",
+      "title": "Gala Apples",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 99,
+        "unit": "lb"
+      },
+      "regularPriceCents": 149,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "kf-bananas",
+      "catalogItemId": "bananas",
+      "title": "Bananas",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 59,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "kf-oranges-navel",
+      "catalogItemId": "oranges-navel",
+      "title": "Navel Oranges",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 99,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "kf-potatoes-russet",
+      "catalogItemId": "potatoes-russet",
+      "title": "Russet Potatoes",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 49,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "kf-onions-yellow",
+      "catalogItemId": "onions-yellow",
+      "title": "Yellow Onions",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 69,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "kf-carrots",
+      "catalogItemId": "carrots",
+      "title": "Carrots",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 79,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "kf-tomatoes-roma",
+      "catalogItemId": "tomatoes-roma",
+      "title": "Roma Tomatoes",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 99,
+        "unit": "lb"
+      },
+      "regularPriceCents": 149,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "kf-broccoli",
+      "catalogItemId": "broccoli",
+      "title": "Broccoli Crowns",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 149,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "kf-bell-peppers-red",
+      "catalogItemId": "bell-peppers-red",
+      "title": "Red Peppers",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 199,
+        "unit": "lb"
+      },
+      "regularPriceCents": 299
+    },
+    {
+      "id": "kf-strawberries",
+      "catalogItemId": "strawberries",
+      "title": "Strawberries 2 lb clamshell",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 599,
+        "size": 2,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "kf-spinach-baby",
+      "catalogItemId": "spinach-baby",
+      "title": "Baby Spinach 142 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 249,
+        "size": 142,
+        "unit": "g"
+      }
+    },
+    {
+      "id": "kf-lettuce-romaine",
+      "catalogItemId": "lettuce-romaine",
+      "title": "Romaine Lettuce",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 149,
+        "unit": "each"
+      }
+    },
+    {
+      "id": "kf-avocados",
+      "catalogItemId": "avocados",
+      "title": "Avocados",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 4,
+        "unit": "each"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "kf-cilantro",
+      "catalogItemId": "cilantro",
+      "title": "Cilantro",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 79,
+        "unit": "each"
+      }
+    },
+    {
+      "id": "kf-chicken-thighs-boneless",
+      "catalogItemId": "chicken-thighs-boneless",
+      "title": "Halal Chicken Thighs",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 449,
+        "unit": "lb"
+      },
+      "contains": [
+        "meat",
+        "poultry"
+      ],
+      "tags": [
+        "halal"
+      ]
+    },
+    {
+      "id": "kf-chicken-breast-boneless",
+      "catalogItemId": "chicken-breast-boneless",
+      "title": "Halal Chicken Breast",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 599,
+        "unit": "lb"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "meat",
+        "poultry"
+      ],
+      "tags": [
+        "halal"
+      ]
+    },
+    {
+      "id": "kf-ground-beef-lean",
+      "catalogItemId": "ground-beef-lean",
+      "title": "Halal Lean Ground Beef",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 549,
+        "unit": "lb"
+      },
+      "contains": [
+        "meat"
+      ],
+      "tags": [
+        "halal"
+      ]
+    },
+    {
+      "id": "kf-tofu-firm",
+      "catalogItemId": "tofu-firm",
+      "title": "Firm Tofu 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 249,
+        "size": 454,
+        "unit": "g"
+      },
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "kf-rice-basmati",
+      "catalogItemId": "rice-basmati",
+      "title": "Aged Basmati Rice 4 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1099,
+        "size": 4,
+        "unit": "kg"
+      },
+      "regularPriceCents": 1399
+    },
+    {
+      "id": "kf-beans-black-canned",
+      "catalogItemId": "beans-black-canned",
+      "title": "Black Beans 398 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 99,
+        "size": 398,
+        "unit": "mL"
+      }
+    },
+    {
+      "id": "kf-tortillas-flour",
+      "catalogItemId": "tortillas-flour",
+      "title": "Flour Tortillas 8 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 249,
+        "size": 8,
+        "unit": "each"
+      },
+      "contains": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "kf-almonds",
+      "catalogItemId": "almonds",
+      "title": "Raw Almonds",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 549,
+        "unit": "lb"
+      },
+      "contains": [
+        "nuts"
+      ]
+    },
+    {
+      "id": "kf-olive-oil",
+      "catalogItemId": "olive-oil",
+      "title": "Olive Oil 3 L tin",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 2999,
+        "size": 3,
+        "unit": "L"
+      },
+      "regularPriceCents": 3499
+    },
+    {
+      "id": "kf-eggs-large",
+      "catalogItemId": "eggs-large",
+      "title": "Large Brown Eggs 12 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 12,
+        "unit": "each"
+      },
+      "contains": [
+        "eggs"
+      ]
+    }
+  ]
+}

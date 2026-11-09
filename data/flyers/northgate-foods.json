@@ -1,0 +1,365 @@
+{
+  "storeId": "northgate-foods",
+  "validFrom": "2026-11-05",
+  "validTo": "2026-11-11",
+  "listings": [
+    {
+      "id": "ng-milk-2pct",
+      "catalogItemId": "milk-2pct",
+      "title": "2% Milk 4 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 569,
+        "size": 4,
+        "unit": "L"
+      },
+      "regularPriceCents": 629,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "ng-cream-35",
+      "catalogItemId": "cream-35",
+      "title": "Whipping Cream 35% 473 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 429,
+        "size": 473,
+        "unit": "mL"
+      },
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "ng-butter-salted",
+      "catalogItemId": "butter-salted",
+      "title": "Salted Butter 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 649,
+        "size": 454,
+        "unit": "g"
+      },
+      "regularPriceCents": 729,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "ng-cheese-cheddar",
+      "catalogItemId": "cheese-cheddar",
+      "title": "Medium Cheddar 900 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1099,
+        "size": 900,
+        "unit": "g"
+      },
+      "regularPriceCents": 1399,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "ng-eggs-large",
+      "catalogItemId": "eggs-large",
+      "title": "Large Eggs 30 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 999,
+        "size": 30,
+        "unit": "each"
+      },
+      "regularPriceCents": 1199,
+      "contains": [
+        "eggs"
+      ]
+    },
+    {
+      "id": "ng-ice-cream-vanilla",
+      "catalogItemId": "ice-cream-vanilla",
+      "title": "Vanilla Ice Cream 1.66 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 1.66,
+        "unit": "L"
+      },
+      "regularPriceCents": 599
+    },
+    {
+      "id": "ng-bread-white",
+      "catalogItemId": "bread-white",
+      "title": "White Sandwich Bread 675 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 249,
+        "size": 675,
+        "unit": "g"
+      },
+      "regularPriceCents": 329,
+      "contains": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "ng-pasta-spaghetti",
+      "catalogItemId": "pasta-spaghetti",
+      "title": "Spaghetti 450 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 149,
+        "size": 450,
+        "unit": "g"
+      },
+      "regularPriceCents": 199,
+      "multiBuy": {
+        "quantity": 2,
+        "totalCents": 250
+      },
+      "contains": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "ng-rice-basmati",
+      "catalogItemId": "rice-basmati",
+      "title": "Basmati Rice 8 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1999,
+        "size": 8,
+        "unit": "kg"
+      },
+      "regularPriceCents": 2499,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "ng-oats-rolled",
+      "catalogItemId": "oats-rolled",
+      "title": "Large Flake Oats 1.35 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 449,
+        "size": 1.35,
+        "unit": "kg"
+      },
+      "regularPriceCents": 549
+    },
+    {
+      "id": "ng-cereal-corn-flakes",
+      "catalogItemId": "cereal-corn-flakes",
+      "title": "Corn Flakes 1.06 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 699,
+        "size": 1.06,
+        "unit": "kg"
+      },
+      "regularPriceCents": 849
+    },
+    {
+      "id": "ng-potatoes-russet",
+      "catalogItemId": "potatoes-russet",
+      "title": "Russet Potatoes 15 lb",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 699,
+        "size": 15,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "ng-onions-yellow",
+      "catalogItemId": "onions-yellow",
+      "title": "Yellow Onions",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 99,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "ng-carrots",
+      "catalogItemId": "carrots",
+      "title": "Carrots 5 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 5,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "ng-oranges-navel",
+      "catalogItemId": "oranges-navel",
+      "title": "Navel Oranges 4 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 4,
+        "unit": "lb"
+      },
+      "regularPriceCents": 699,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "ng-bananas",
+      "catalogItemId": "bananas",
+      "title": "Bananas",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 79,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "ng-chicken-breast-boneless",
+      "catalogItemId": "chicken-breast-boneless",
+      "title": "Chicken Breast Family Pack 1.8 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 2299,
+        "size": 1.8,
+        "unit": "kg"
+      },
+      "regularPriceCents": 2799,
+      "contains": [
+        "meat",
+        "poultry"
+      ]
+    },
+    {
+      "id": "ng-chicken-thighs-boneless",
+      "catalogItemId": "chicken-thighs-boneless",
+      "title": "Chicken Thighs Family Pack 1.5 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1499,
+        "size": 1.5,
+        "unit": "kg"
+      },
+      "regularPriceCents": 1899,
+      "contains": [
+        "meat",
+        "poultry"
+      ]
+    },
+    {
+      "id": "ng-ground-beef-lean",
+      "catalogItemId": "ground-beef-lean",
+      "title": "Lean Ground Beef 1.36 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1599,
+        "size": 1.36,
+        "unit": "kg"
+      },
+      "regularPriceCents": 1999,
+      "contains": [
+        "meat"
+      ]
+    },
+    {
+      "id": "ng-pork-chops",
+      "catalogItemId": "pork-chops",
+      "title": "Pork Loin Chops Value Pack",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 299,
+        "unit": "lb"
+      },
+      "regularPriceCents": 449,
+      "contains": [
+        "meat",
+        "pork"
+      ]
+    },
+    {
+      "id": "ng-peas-frozen",
+      "catalogItemId": "peas-frozen",
+      "title": "Frozen Peas 2 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 2,
+        "unit": "kg"
+      },
+      "regularPriceCents": 699
+    },
+    {
+      "id": "ng-tomatoes-diced-canned",
+      "catalogItemId": "tomatoes-diced-canned",
+      "title": "Diced Tomatoes 796 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 129,
+        "size": 796,
+        "unit": "mL"
+      }
+    },
+    {
+      "id": "ng-beans-black-canned",
+      "catalogItemId": "beans-black-canned",
+      "title": "Black Beans 540 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 119,
+        "size": 540,
+        "unit": "mL"
+      },
+      "regularPriceCents": 169
+    },
+    {
+      "id": "ng-sugar-white",
+      "catalogItemId": "sugar-white",
+      "title": "Granulated Sugar 4 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 599,
+        "size": 4,
+        "unit": "kg"
+      },
+      "regularPriceCents": 749,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "ng-canola-oil",
+      "catalogItemId": "canola-oil",
+      "title": "Canola Oil 1.89 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 1.89,
+        "unit": "L"
+      }
+    },
+    {
+      "id": "ng-coffee-ground",
+      "catalogItemId": "coffee-ground",
+      "title": "Ground Coffee 920 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1299,
+        "size": 920,
+        "unit": "g"
+      },
+      "regularPriceCents": 1699
+    }
+  ]
+}
