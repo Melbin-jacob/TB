@@ -1,0 +1,209 @@
+.form {
+  display: grid;
+  gap: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+.topRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.field label,
+.fieldset legend {
+  font-weight: 600;
+}
+
+.fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.fieldset legend {
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.muted {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.input {
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  min-width: 0;
+}
+
+.field .input {
+  width: 12rem;
+  max-width: 100%;
+  text-transform: uppercase;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-2);
+  cursor: pointer;
+}
+
+.chip:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.chip input {
+  accent-color: var(--accent);
+  margin: 0;
+}
+
+.rows {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+
+.rowName {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+
+.rowControls {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.qty {
+  width: 6rem;
+}
+
+.remove {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.addRow {
+  display: flex;
+  gap: 8px;
+}
+
+.addSelect {
+  flex: 1;
+}
+
+.primary,
+.secondary {
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary {
+  border: 0;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  justify-self: start;
+}
+
+.secondary {
+  border: 1px solid var(--accent);
+  background: var(--surface);
+  color: var(--accent);
+}
+
+.primary:disabled,
+.secondary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.linkButton {
+  border: 0;
+  background: none;
+  padding: 8px 0;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fieldError {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.9rem;
+}
+
+.errorBox {
+  border: 1px solid var(--danger);
+  background: var(--danger-bg);
+  color: var(--danger);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.errorBox p {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .form {
+    padding: 16px;
+  }
+
+  .primary {
+    justify-self: stretch;
+  }
+}
