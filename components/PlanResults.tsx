@@ -96,7 +96,9 @@ function PlanCard({
       {comparison && <p className={comparison.good ? styles.compareGood : styles.compareBad}>{comparison.text}</p>}
       <p className={styles.badges}>
         {plan.complete ? (
-          <span className={styles.badgeOk}>All {plan.lines.length} items</span>
+          <span className={styles.badgeOk}>
+            All {plan.lines.length} item{plan.lines.length === 1 ? '' : 's'}
+          </span>
         ) : (
           <span className={styles.badgeWarn}>
             {plan.unavailable.length} item{plan.unavailable.length === 1 ? '' : 's'} unavailable
