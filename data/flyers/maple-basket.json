@@ -1,0 +1,449 @@
+{
+  "storeId": "maple-basket",
+  "validFrom": "2026-11-05",
+  "validTo": "2026-11-11",
+  "listings": [
+    {
+      "id": "mb-milk-2pct",
+      "catalogItemId": "milk-2pct",
+      "title": "Maple Valley 2% Milk 4 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 589,
+        "size": 4,
+        "unit": "L"
+      },
+      "regularPriceCents": 649,
+      "contains": [
+        "dairy"
+      ],
+      "tags": [
+        "kosher",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-milk-2pct-2",
+      "catalogItemId": "milk-2pct",
+      "title": "Maple Valley 2% Milk 1 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 259,
+        "size": 1,
+        "unit": "L"
+      },
+      "regularPriceCents": 289,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "mb-butter-salted",
+      "catalogItemId": "butter-salted",
+      "title": "Creamery Salted Butter 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 599,
+        "size": 454,
+        "unit": "g"
+      },
+      "regularPriceCents": 749,
+      "contains": [
+        "dairy"
+      ],
+      "tags": [
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-cheese-cheddar",
+      "catalogItemId": "cheese-cheddar",
+      "title": "Old Cheddar 400 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 400,
+        "unit": "g"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "mb-yogurt-greek-plain",
+      "catalogItemId": "yogurt-greek-plain",
+      "title": "Greek Yogurt Plain 750 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 750,
+        "unit": "g"
+      },
+      "regularPriceCents": 599,
+      "multiBuy": {
+        "quantity": 2,
+        "totalCents": 900
+      },
+      "contains": [
+        "dairy"
+      ],
+      "tags": [
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-eggs-large",
+      "catalogItemId": "eggs-large",
+      "title": "Large Eggs 12 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 449,
+        "size": 12,
+        "unit": "each"
+      },
+      "regularPriceCents": 499,
+      "contains": [
+        "eggs"
+      ],
+      "tags": [
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-bread-whole-wheat",
+      "catalogItemId": "bread-whole-wheat",
+      "title": "Whole Wheat Bread 675 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 299,
+        "size": 675,
+        "unit": "g"
+      },
+      "regularPriceCents": 379,
+      "contains": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "mb-pasta-spaghetti",
+      "catalogItemId": "pasta-spaghetti",
+      "title": "Spaghetti 900 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 229,
+        "size": 900,
+        "unit": "g"
+      },
+      "regularPriceCents": 279,
+      "contains": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "mb-rice-basmati",
+      "catalogItemId": "rice-basmati",
+      "title": "Basmati Rice 2 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 799,
+        "size": 2,
+        "unit": "kg"
+      },
+      "regularPriceCents": 999,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-cereal-corn-flakes",
+      "catalogItemId": "cereal-corn-flakes",
+      "title": "Corn Flakes 680 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 680,
+        "unit": "g"
+      },
+      "regularPriceCents": 649
+    },
+    {
+      "id": "mb-apples-gala",
+      "catalogItemId": "apples-gala",
+      "title": "Gala Apples",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 149,
+        "unit": "lb"
+      },
+      "regularPriceCents": 199,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-bananas",
+      "catalogItemId": "bananas",
+      "title": "Bananas",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 69,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-potatoes-russet",
+      "catalogItemId": "potatoes-russet",
+      "title": "Russet Potatoes 10 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 10,
+        "unit": "lb"
+      },
+      "regularPriceCents": 699,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-onions-yellow",
+      "catalogItemId": "onions-yellow",
+      "title": "Yellow Onions 3 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 299,
+        "size": 3,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-carrots",
+      "catalogItemId": "carrots",
+      "title": "Carrots 2 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 199,
+        "size": 2,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-broccoli",
+      "catalogItemId": "broccoli",
+      "title": "Broccoli Crowns",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 199,
+        "unit": "lb"
+      },
+      "regularPriceCents": 299
+    },
+    {
+      "id": "mb-strawberries",
+      "catalogItemId": "strawberries",
+      "title": "Strawberries 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 454,
+        "unit": "g"
+      },
+      "regularPriceCents": 499
+    },
+    {
+      "id": "mb-lettuce-romaine",
+      "catalogItemId": "lettuce-romaine",
+      "title": "Romaine Hearts 3 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 3,
+        "unit": "each"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-chicken-breast-boneless",
+      "catalogItemId": "chicken-breast-boneless",
+      "title": "Boneless Skinless Chicken Breast",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 499,
+        "unit": "lb"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "meat",
+        "poultry"
+      ]
+    },
+    {
+      "id": "mb-ground-beef-lean",
+      "catalogItemId": "ground-beef-lean",
+      "title": "Lean Ground Beef 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 649,
+        "size": 454,
+        "unit": "g"
+      },
+      "regularPriceCents": 799,
+      "contains": [
+        "meat"
+      ]
+    },
+    {
+      "id": "mb-bacon",
+      "catalogItemId": "bacon",
+      "title": "Smoked Bacon 375 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 375,
+        "unit": "g"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "meat",
+        "pork"
+      ]
+    },
+    {
+      "id": "mb-beans-black-canned",
+      "catalogItemId": "beans-black-canned",
+      "title": "Black Beans 540 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 149,
+        "size": 540,
+        "unit": "mL"
+      },
+      "multiBuy": {
+        "quantity": 3,
+        "totalCents": 400
+      },
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "mb-tomatoes-diced-canned",
+      "catalogItemId": "tomatoes-diced-canned",
+      "title": "Diced Tomatoes 796 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 179,
+        "size": 796,
+        "unit": "mL"
+      },
+      "regularPriceCents": 229,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-peanut-butter",
+      "catalogItemId": "peanut-butter",
+      "title": "Smooth Peanut Butter 1 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 1,
+        "unit": "kg"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "nuts"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "mb-canola-oil",
+      "catalogItemId": "canola-oil",
+      "title": "Canola Oil 3 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 899,
+        "size": 3,
+        "unit": "L"
+      },
+      "regularPriceCents": 1099,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-coffee-ground",
+      "catalogItemId": "coffee-ground",
+      "title": "Medium Roast Ground Coffee 930 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1499,
+        "size": 930,
+        "unit": "g"
+      },
+      "regularPriceCents": 1899
+    },
+    {
+      "id": "mb-orange-juice",
+      "catalogItemId": "orange-juice",
+      "title": "Orange Juice 1.54 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 1.54,
+        "unit": "L"
+      },
+      "regularPriceCents": 479,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "mb-peas-frozen",
+      "catalogItemId": "peas-frozen",
+      "title": "Frozen Green Peas 750 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 249,
+        "size": 750,
+        "unit": "g"
+      },
+      "regularPriceCents": 329,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  ]
+}

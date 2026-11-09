@@ -1,0 +1,375 @@
+{
+  "storeId": "valucart",
+  "validFrom": "2026-11-05",
+  "validTo": "2026-11-11",
+  "listings": [
+    {
+      "id": "vc-milk-2pct",
+      "catalogItemId": "milk-2pct",
+      "title": "2% Milk 4 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 4,
+        "unit": "L"
+      },
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "vc-milk-oat",
+      "catalogItemId": "milk-oat",
+      "title": "Oat Drink 1.89 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 1.89,
+        "unit": "L"
+      },
+      "tags": [
+        "vegan",
+        "dairy-free"
+      ]
+    },
+    {
+      "id": "vc-butter-salted",
+      "catalogItemId": "butter-salted",
+      "title": "Salted Butter 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 454,
+        "unit": "g"
+      },
+      "regularPriceCents": 649,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "vc-cheese-cheddar",
+      "catalogItemId": "cheese-cheddar",
+      "title": "Mild Cheddar 700 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 899,
+        "size": 700,
+        "unit": "g"
+      },
+      "regularPriceCents": 1099,
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "vc-yogurt-greek-plain",
+      "catalogItemId": "yogurt-greek-plain",
+      "title": "Greek Yogurt 650 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 650,
+        "unit": "g"
+      },
+      "contains": [
+        "dairy"
+      ]
+    },
+    {
+      "id": "vc-eggs-large",
+      "catalogItemId": "eggs-large",
+      "title": "Large Eggs 18 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 599,
+        "size": 18,
+        "unit": "each"
+      },
+      "contains": [
+        "eggs"
+      ]
+    },
+    {
+      "id": "vc-bread-white",
+      "catalogItemId": "bread-white",
+      "title": "White Bread 570 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 199,
+        "size": 570,
+        "unit": "g"
+      },
+      "regularPriceCents": 249
+    },
+    {
+      "id": "vc-bread-whole-wheat",
+      "catalogItemId": "bread-whole-wheat",
+      "title": "100% Whole Wheat 675 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 229,
+        "size": 675,
+        "unit": "g"
+      },
+      "regularPriceCents": 279,
+      "contains": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "vc-pasta-spaghetti",
+      "catalogItemId": "pasta-spaghetti",
+      "title": "Spaghetti 900 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 199,
+        "size": 900,
+        "unit": "g"
+      },
+      "regularPriceCents": 249,
+      "contains": [
+        "gluten"
+      ]
+    },
+    {
+      "id": "vc-rice-basmati",
+      "catalogItemId": "rice-basmati",
+      "title": "Basmati Rice 2 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 699,
+        "size": 2,
+        "unit": "kg"
+      }
+    },
+    {
+      "id": "vc-oats-rolled",
+      "catalogItemId": "oats-rolled",
+      "title": "Quick Oats 1 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 299,
+        "size": 1,
+        "unit": "kg"
+      },
+      "regularPriceCents": 379
+    },
+    {
+      "id": "vc-cereal-corn-flakes",
+      "catalogItemId": "cereal-corn-flakes",
+      "title": "Corn Flakes 750 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 349,
+        "size": 750,
+        "unit": "g"
+      },
+      "regularPriceCents": 449
+    },
+    {
+      "id": "vc-bananas",
+      "catalogItemId": "bananas",
+      "title": "Bananas",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 65,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "vc-apples-gala",
+      "catalogItemId": "apples-gala",
+      "title": "Gala Apples 3 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 3,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "vc-potatoes-russet",
+      "catalogItemId": "potatoes-russet",
+      "title": "Russet Potatoes 10 lb",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 449,
+        "size": 10,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "vc-carrots",
+      "catalogItemId": "carrots",
+      "title": "Carrots 3 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 199,
+        "size": 3,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "vc-onions-yellow",
+      "catalogItemId": "onions-yellow",
+      "title": "Onions 5 lb bag",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 349,
+        "size": 5,
+        "unit": "lb"
+      }
+    },
+    {
+      "id": "vc-chicken-thighs-boneless",
+      "catalogItemId": "chicken-thighs-boneless",
+      "title": "Boneless Chicken Thighs 900 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1099,
+        "size": 900,
+        "unit": "g"
+      },
+      "regularPriceCents": 1299
+    },
+    {
+      "id": "vc-ground-beef-lean",
+      "catalogItemId": "ground-beef-lean",
+      "title": "Lean Ground Beef 454 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 599,
+        "size": 454,
+        "unit": "g"
+      },
+      "contains": [
+        "meat"
+      ]
+    },
+    {
+      "id": "vc-pork-chops",
+      "catalogItemId": "pork-chops",
+      "title": "Pork Chops",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 349,
+        "unit": "lb"
+      },
+      "contains": [
+        "meat",
+        "pork"
+      ]
+    },
+    {
+      "id": "vc-bacon",
+      "catalogItemId": "bacon",
+      "title": "Bacon 500 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 500,
+        "unit": "g"
+      },
+      "contains": [
+        "meat",
+        "pork"
+      ]
+    },
+    {
+      "id": "vc-tomatoes-diced-canned",
+      "catalogItemId": "tomatoes-diced-canned",
+      "title": "Diced Tomatoes 796 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 149,
+        "size": 796,
+        "unit": "mL"
+      }
+    },
+    {
+      "id": "vc-beans-black-canned",
+      "catalogItemId": "beans-black-canned",
+      "title": "Black Beans 540 mL",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 129,
+        "size": 540,
+        "unit": "mL"
+      }
+    },
+    {
+      "id": "vc-peanut-butter",
+      "catalogItemId": "peanut-butter",
+      "title": "Peanut Butter 1 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 1,
+        "unit": "kg"
+      },
+      "contains": [
+        "nuts"
+      ]
+    },
+    {
+      "id": "vc-sugar-white",
+      "catalogItemId": "sugar-white",
+      "title": "White Sugar 2 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 299,
+        "size": 2,
+        "unit": "kg"
+      }
+    },
+    {
+      "id": "vc-canola-oil",
+      "catalogItemId": "canola-oil",
+      "title": "Canola Oil 3 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 849,
+        "size": 3,
+        "unit": "L"
+      }
+    },
+    {
+      "id": "vc-orange-juice",
+      "catalogItemId": "orange-juice",
+      "title": "Orange Juice 2.63 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 2.63,
+        "unit": "L"
+      },
+      "regularPriceCents": 649
+    },
+    {
+      "id": "vc-peas-frozen",
+      "catalogItemId": "peas-frozen",
+      "title": "Frozen Peas 1 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 279,
+        "size": 1,
+        "unit": "kg"
+      }
+    },
+    {
+      "id": "vc-ice-cream-vanilla",
+      "catalogItemId": "ice-cream-vanilla",
+      "title": "Vanilla Frozen Dessert 2 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 449,
+        "size": 2,
+        "unit": "L"
+      },
+      "contains": [
+        "dairy"
+      ]
+    }
+  ]
+}

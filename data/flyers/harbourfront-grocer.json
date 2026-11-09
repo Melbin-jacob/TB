@@ -1,0 +1,399 @@
+{
+  "storeId": "harbourfront-grocer",
+  "validFrom": "2026-11-05",
+  "validTo": "2026-11-11",
+  "listings": [
+    {
+      "id": "hg-milk-2pct",
+      "catalogItemId": "milk-2pct",
+      "title": "Organic 2% Milk 2 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 2,
+        "unit": "L"
+      },
+      "regularPriceCents": 629,
+      "contains": [
+        "dairy"
+      ],
+      "tags": [
+        "gluten-free",
+        "kosher"
+      ]
+    },
+    {
+      "id": "hg-milk-oat",
+      "catalogItemId": "milk-oat",
+      "title": "Oat Beverage Original 1.75 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 449,
+        "size": 1.75,
+        "unit": "L"
+      },
+      "regularPriceCents": 579,
+      "tags": [
+        "vegan",
+        "dairy-free",
+        "nut-free"
+      ]
+    },
+    {
+      "id": "hg-cheese-cheddar",
+      "catalogItemId": "cheese-cheddar",
+      "title": "Aged White Cheddar 300 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 599,
+        "size": 300,
+        "unit": "g"
+      },
+      "regularPriceCents": 799,
+      "contains": [
+        "dairy"
+      ],
+      "tags": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "hg-yogurt-greek-plain",
+      "catalogItemId": "yogurt-greek-plain",
+      "title": "Organic Greek Yogurt 500 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 500,
+        "unit": "g"
+      },
+      "regularPriceCents": 649,
+      "contains": [
+        "dairy"
+      ],
+      "tags": [
+        "gluten-free",
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "hg-eggs-large",
+      "catalogItemId": "eggs-large",
+      "title": "Free-Run Large Eggs 12 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 549,
+        "size": 12,
+        "unit": "each"
+      },
+      "regularPriceCents": 649,
+      "contains": [
+        "eggs"
+      ],
+      "tags": [
+        "gluten-free",
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "hg-ice-cream-vanilla",
+      "catalogItemId": "ice-cream-vanilla",
+      "title": "French Vanilla Ice Cream 1.5 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 499,
+        "size": 1.5,
+        "unit": "L"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "id": "hg-bread-white",
+      "catalogItemId": "bread-white",
+      "title": "Artisan White Loaf 600 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 399,
+        "size": 600,
+        "unit": "g"
+      },
+      "regularPriceCents": 449,
+      "contains": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "hg-bread-whole-wheat",
+      "catalogItemId": "bread-whole-wheat",
+      "title": "Stone-Ground Whole Wheat 600 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 429,
+        "size": 600,
+        "unit": "g"
+      },
+      "contains": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "hg-tortillas-flour",
+      "catalogItemId": "tortillas-flour",
+      "title": "Flour Tortillas 10 pack",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 349,
+        "size": 10,
+        "unit": "each"
+      },
+      "contains": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    {
+      "id": "hg-oats-rolled",
+      "catalogItemId": "oats-rolled",
+      "title": "Gluten-Free Rolled Oats 1 kg",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 699,
+        "size": 1,
+        "unit": "kg"
+      },
+      "regularPriceCents": 799,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-apples-gala",
+      "catalogItemId": "apples-gala",
+      "title": "Organic Gala Apples",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 249,
+        "unit": "lb"
+      },
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-strawberries",
+      "catalogItemId": "strawberries",
+      "title": "Strawberries 1 lb",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 349,
+        "size": 1,
+        "unit": "lb"
+      },
+      "regularPriceCents": 499,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-spinach-baby",
+      "catalogItemId": "spinach-baby",
+      "title": "Organic Baby Spinach 312 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 449,
+        "size": 312,
+        "unit": "g"
+      },
+      "regularPriceCents": 599,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-avocados",
+      "catalogItemId": "avocados",
+      "title": "Avocados, Hass",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 129,
+        "unit": "each"
+      },
+      "regularPriceCents": 199,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-bell-peppers-red",
+      "catalogItemId": "bell-peppers-red",
+      "title": "Red Bell Peppers",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 299,
+        "unit": "lb"
+      },
+      "regularPriceCents": 399
+    },
+    {
+      "id": "hg-chicken-thighs-boneless",
+      "catalogItemId": "chicken-thighs-boneless",
+      "title": "Halal Boneless Chicken Thighs",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 549,
+        "unit": "lb"
+      },
+      "regularPriceCents": 699,
+      "contains": [
+        "meat",
+        "poultry"
+      ],
+      "tags": [
+        "halal",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-chicken-breast-boneless",
+      "catalogItemId": "chicken-breast-boneless",
+      "title": "Air-Chilled Chicken Breast",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 649,
+        "unit": "lb"
+      },
+      "regularPriceCents": 799,
+      "contains": [
+        "meat",
+        "poultry"
+      ]
+    },
+    {
+      "id": "hg-salmon-fillet",
+      "catalogItemId": "salmon-fillet",
+      "title": "Atlantic Salmon Fillet",
+      "pricing": {
+        "kind": "per_unit",
+        "priceCents": 899,
+        "unit": "lb"
+      },
+      "regularPriceCents": 1199,
+      "contains": [
+        "fish"
+      ],
+      "tags": [
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-tofu-firm",
+      "catalogItemId": "tofu-firm",
+      "title": "Organic Firm Tofu 350 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 299,
+        "size": 350,
+        "unit": "g"
+      },
+      "regularPriceCents": 349,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "kosher"
+      ]
+    },
+    {
+      "id": "hg-almonds",
+      "catalogItemId": "almonds",
+      "title": "Whole Almonds 400 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 699,
+        "size": 400,
+        "unit": "g"
+      },
+      "regularPriceCents": 899,
+      "contains": [
+        "nuts"
+      ],
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-olive-oil",
+      "catalogItemId": "olive-oil",
+      "title": "Extra Virgin Olive Oil 1 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 1299,
+        "size": 1,
+        "unit": "L"
+      },
+      "regularPriceCents": 1599,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-honey",
+      "catalogItemId": "honey",
+      "title": "Wildflower Honey 500 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 799,
+        "size": 500,
+        "unit": "g"
+      },
+      "contains": [
+        "honey"
+      ],
+      "tags": [
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "hg-coffee-ground",
+      "catalogItemId": "coffee-ground",
+      "title": "Dark Roast Ground Coffee 340 g",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 899,
+        "size": 340,
+        "unit": "g"
+      },
+      "regularPriceCents": 1099
+    },
+    {
+      "id": "hg-orange-juice",
+      "catalogItemId": "orange-juice",
+      "title": "Fresh-Squeezed Orange Juice 1.75 L",
+      "pricing": {
+        "kind": "pack",
+        "priceCents": 649,
+        "size": 1.75,
+        "unit": "L"
+      },
+      "regularPriceCents": 749
+    }
+  ]
+}

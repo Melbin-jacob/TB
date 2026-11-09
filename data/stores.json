@@ -1,0 +1,49 @@
+[
+  {
+    "id": "maple-basket",
+    "name": "Maple Basket Market",
+    "address": "12 Harbour Lane, Toronto, ON",
+    "fsas": [
+      "M5V",
+      "M5J",
+      "M6K"
+    ]
+  },
+  {
+    "id": "harbourfront-grocer",
+    "name": "Harbourfront Grocer",
+    "address": "88 Pier Walk, Toronto, ON",
+    "fsas": [
+      "M5V",
+      "M5J"
+    ]
+  },
+  {
+    "id": "northgate-foods",
+    "name": "Northgate Foods",
+    "address": "450 Northgate Ave, Toronto, ON",
+    "fsas": [
+      "M6K",
+      "M6J"
+    ]
+  },
+  {
+    "id": "kensington-fresh",
+    "name": "Kensington Fresh",
+    "address": "27 Market Row, Toronto, ON",
+    "fsas": [
+      "M5T",
+      "M6J"
+    ]
+  },
+  {
+    "id": "valucart",
+    "name": "ValuCart",
+    "address": "900 Discount Dr, Toronto, ON",
+    "fsas": [
+      "M5T",
+      "M5V",
+      "M6K"
+    ]
+  }
+]
