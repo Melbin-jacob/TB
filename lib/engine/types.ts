@@ -170,9 +170,16 @@ export type DietaryStatus = 'ok' | 'unverified';
 export interface PlanLine {
   catalogItemId: string;
   storeId: string;
+  /** Every listing used for this line (packs and loose portion). */
   listingIds: string[];
-  /** Packs bought per listing (loose listings report count 1). */
-  packs: { listingId: string; count: number }[];
+  /** Whole packs bought per listing; `bundles` = how many of those packs came as multi-buy bundles. */
+  packs: { listingId: string; count: number; bundles: number }[];
+  /** Amount bought from a loose (per-unit) listing, in base units. */
+  loose?: { listingId: string; base: number };
+  /** Requested amount, in base units (g / mL / each). */
+  neededBase: number;
+  /** Amount actually bought, in base units (≥ neededBase because packs are whole). */
+  purchasedBase: number;
   costCents: Cents;
   regularCostCents?: Cents;
   dietary: DietaryStatus;
@@ -197,7 +204,9 @@ export interface PlanResponse {
   stores: Store[];
   bestSingle: Plan | null;
   bestPair: Plan | null;
-  /** bestSingle.totalCents − bestPair.totalCents, when both exist. */
+  /** bestSingle.totalCents − bestPair.totalCents, when both exist and cover the same items (else null). */
   pairSavingsCents: Cents | null;
   warnings: string[];
+  /** Listings referenced by bestSingle / bestPair, for display (titles, unit prices). */
+  listings: NormalizedListing[];
 }
