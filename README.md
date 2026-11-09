@@ -28,7 +28,17 @@ Open http://localhost:3000 and click **Try a sample list**. `DEMO_AS_OF` keeps t
 | `npm run dev` | Development server |
 | `npm run build` then `npm start` | Production build and server |
 | `npm test` | Unit and API tests (Vitest) |
+| `npm run e2e` | Browser tests (Playwright) on the production build, desktop and phone |
 | `npm run typecheck` | TypeScript checks |
+
+Before the first `npm run e2e` on a new machine, install the browser:
+
+```bash
+npx playwright install chromium
+```
+
+`npm run e2e` builds the app, starts it on port 3100 with `DEMO_AS_OF=2026-11-09`, and runs `e2e/*.spec.ts`.
+Outside CI it reuses a server already running on that port, so stop any old one after changing code.
 
 ## How a plan is calculated
 
@@ -149,6 +159,7 @@ lib/engine/          Pure TypeScript engine (no file access)
 lib/data/            Loading data/ from disk and choosing the plan date
 data/                Mock catalog, stores and flyers
 tests/               Vitest tests
+e2e/                 Playwright browser tests
 ```
 
 ## Known limitations
@@ -162,5 +173,5 @@ tests/               Vitest tests
 - **Prices sold by the pound** are stored per kg, rounded up to the cent (at most a fraction of a cent per kg).
 - **Halal and kosher** are basic: meat without a label is "unverified", and kosher meat/dairy mixing is not modelled.
 - **No saved lists.** Refreshing the page clears the list.
-- **Browser tests are not part of `npm test`.** The UI was checked with a separate Playwright script.
+- **Browser tests run separately** (`npm run e2e`), not as part of `npm test`.
 - **Self-contained (`standalone`) Next.js builds** would need `data/` added to the output explicitly.

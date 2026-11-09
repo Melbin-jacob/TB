@@ -14,3 +14,7 @@ coverage/
 .env*
 .DS_Store
 npm-debug.log*
+
+# playwright
+test-results/
+playwright-report/
