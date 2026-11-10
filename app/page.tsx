@@ -12,13 +12,6 @@ export default function HomePage() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.intro}>
-        <h1>Grocery Sale Optimizer</h1>
-        <p>
-          Enter your postal code and shopping list. We compare this week&rsquo;s flyer prices nearby and show the cheapest
-          trip to one store, and to two.
-        </p>
-      </div>
       <PlannerForm catalog={sorted} restrictions={RESTRICTIONS} maxItems={MAX_LIST_LINES} />
     </main>
   );

@@ -1,21 +1,5 @@
 .main {
-  max-width: 1040px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 16px 64px;
-}
-
-.intro {
-  margin-bottom: 24px;
-}
-
-.intro h1 {
-  margin: 0;
-  font-size: clamp(1.6rem, 4vw, 2.2rem);
-  line-height: 1.2;
-}
-
-.intro p {
-  margin: 8px 0 0;
-  max-width: 60ch;
-  color: var(--muted);
+  padding: 16px 16px 64px;
 }

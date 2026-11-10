@@ -1,11 +1,17 @@
+.layout {
+  display: grid;
+  gap: 20px;
+}
+
 .form {
   display: grid;
   gap: 20px;
+  scroll-margin-top: 16px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
-  padding: 20px;
+  padding: 24px;
 }
 
 .topRow {

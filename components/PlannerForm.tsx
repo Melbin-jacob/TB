@@ -4,8 +4,10 @@ import { useMemo, useRef, useState, type FormEvent } from 'react';
 import { parsePostalCode } from '@/lib/engine/postal';
 import type { CatalogItem, PlanResponse, Restriction, Unit } from '@/lib/engine/types';
 import { UNITS_FOR } from './format';
+import { Hero } from './Hero';
 import { PlanResults } from './PlanResults';
 import styles from './PlannerForm.module.css';
+import { SiteHeader } from './SiteHeader';
 
 export type PlanApiResponse = PlanResponse & { asOf: string };
 
@@ -28,16 +30,6 @@ interface Props {
   restrictions: readonly Restriction[];
   maxItems: number;
 }
-
-const RESTRICTION_LABELS: Record<Restriction, string> = {
-  vegan: 'Vegan',
-  vegetarian: 'Vegetarian',
-  'gluten-free': 'Gluten-free',
-  'dairy-free': 'Dairy-free',
-  'nut-free': 'Nut-free',
-  halal: 'Halal',
-  kosher: 'Kosher',
-};
 
 const SAMPLE: { postalCode: string; items: Omit<Row, 'key'>[] } = {
   postalCode: 'M5V 2T6',
@@ -63,6 +55,10 @@ export function PlannerForm({ catalog, restrictions, maxItems }: Props) {
   const [result, setResult] = useState<PlanApiResponse | null>(null);
   const [issues, setIssues] = useState<Issue[]>([]);
   const [loading, setLoading] = useState(false);
+  const [search, setSearch] = useState('');
+
+  const query = search.trim().toLowerCase();
+  const visibleCatalog = query ? catalog.filter((c) => c.name.toLowerCase().includes(query)) : catalog;
 
   const newRow = (r: Omit<Row, 'key'>): Row => ({ ...r, key: nextKey.current++ });
 
@@ -134,47 +130,19 @@ export function PlannerForm({ catalog, restrictions, maxItems }: Props) {
 
   return (
     <>
-      <form className={styles.form} onSubmit={onSubmit} noValidate>
-        <div className={styles.topRow}>
-          <div className={styles.field}>
-            <label htmlFor="postal">Postal code</label>
-            <input
-              id="postal"
-              className={styles.input}
-              value={postalCode}
-              onChange={(e) => setPostalCode(e.target.value)}
-              placeholder="M5V 2T6"
-              autoComplete="postal-code"
-              aria-invalid={postalIssue ? true : undefined}
-              aria-describedby={postalIssue ? 'postal-error' : undefined}
-            />
-            {postalIssue && (
-              <p id="postal-error" className={styles.fieldError}>
-                {postalIssue.message}
-              </p>
-            )}
-          </div>
-          <button type="button" className={styles.linkButton} onClick={loadSample}>
-            Try a sample list
-          </button>
-        </div>
+      <SiteHeader search={search} onSearch={setSearch} listCount={rows.length} />
+      <form className={styles.layout} onSubmit={onSubmit} noValidate>
+        <Hero
+          postalCode={postalCode}
+          onPostalCode={setPostalCode}
+          postalError={postalIssue?.message}
+          restrictions={restrictions}
+          selected={selected}
+          onToggleRestriction={(r, on) => setSelected((prev) => (on ? [...prev, r] : prev.filter((x) => x !== r)))}
+          onSample={loadSample}
+        />
 
-        <fieldset className={styles.fieldset}>
-          <legend>Dietary needs (optional)</legend>
-          <div className={styles.chips}>
-            {restrictions.map((r) => (
-              <label key={r} className={styles.chip}>
-                <input
-                  type="checkbox"
-                  checked={selected.includes(r)}
-                  onChange={(e) => setSelected((prev) => (e.target.checked ? [...prev, r] : prev.filter((x) => x !== r)))}
-                />
-                <span>{RESTRICTION_LABELS[r]}</span>
-              </label>
-            ))}
-          </div>
-        </fieldset>
-
+        <div className={styles.form} id="shopping-list">
         <fieldset className={styles.fieldset}>
           <legend>
             Shopping list <span className={styles.muted}>({rows.length}/{maxItems})</span>
@@ -244,8 +212,8 @@ export function PlannerForm({ catalog, restrictions, maxItems }: Props) {
               value={draftItem}
               onChange={(e) => setDraftItem(e.target.value)}
             >
-              <option value="">Choose an item…</option>
-              {catalog.map((c) => (
+              <option value="">{query ? `Choose an item (${visibleCatalog.length} match${visibleCatalog.length === 1 ? '' : 'es'})…` : 'Choose an item…'}</option>
+              {visibleCatalog.map((c) => (
                 <option key={c.id} value={c.id}>
                   {c.name}
                 </option>
@@ -270,6 +238,7 @@ export function PlannerForm({ catalog, restrictions, maxItems }: Props) {
         <button type="submit" className={styles.primary} disabled={loading}>
           {loading ? 'Finding the best prices…' : 'Find the cheapest trip'}
         </button>
+        </div>
       </form>
 
       <div aria-live="polite">{result && <PlanResults response={result} catalog={byId} />}</div>

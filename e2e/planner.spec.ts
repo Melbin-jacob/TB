@@ -90,7 +90,7 @@ test.describe('planner', () => {
 
   test('applies dietary restrictions', async ({ page }) => {
     await planSample(page, { restrictions: ['Vegan'] });
-    const results = page.locator('section');
+    const results = page.getByRole('region', { name: /Your plan for/ });
     await expect(results).toContainText('Milk, 2% normally contains dairy, which conflicts with vegan.');
     await expect(results).toContainText('Not available');
 
